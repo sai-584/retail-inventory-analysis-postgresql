@@ -66,3 +66,20 @@ The project uses a single table named **`zepto_products`**.
 | weight_in_grams | INT | Weight of one product in grams |
 | out_of_stock | BOOLEAN | Indicates whether the product is out of stock |
 | quantity | INT | Product quantity/unit information from the dataset |
+
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Before performing business analysis, an exploratory data analysis (EDA) was conducted to understand the structure and quality of the dataset.
+
+The following checks were performed:
+
+- Determined the total number of records in the dataset.
+- Checked for missing (NULL) values across all columns.
+- Identified duplicate product names.
+- Explored unique product categories.
+- Analyzed stock availability (In Stock vs Out of Stock).
+- Examined product pricing and discount information.
+- Reviewed maximum and minimum values to understand data distribution.
