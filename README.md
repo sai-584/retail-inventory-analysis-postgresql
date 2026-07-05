@@ -70,7 +70,7 @@ The project uses a single table named **`zepto_products`**.
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Before performing business analysis, an exploratory data analysis (EDA) was conducted to understand the structure and quality of the dataset.
 
@@ -83,3 +83,27 @@ The following checks were performed:
 - Analyzed stock availability (In Stock vs Out of Stock).
 - Examined product pricing and discount information.
 - Reviewed maximum and minimum values to understand data distribution.
+
+---
+
+## Data Cleaning
+
+To improve data quality and ensure accurate analysis, the following cleaning steps were performed:
+
+- Removed products with an MRP of 0, as these records contained invalid pricing information.
+- Removed products with a weight of 0 grams because they could not be used for weight-based analysis.
+- Converted price values from paise to Indian Rupees for better readability and meaningful business reporting.
+
+
+## Business Questions Answered
+
+The project answers several real-world business questions, including:
+
+- FIND THE TOP-10 BEST VALUE PRODUCTS BASED ON THE DISCOUNT PERCENTAGE
+- SHOW THE PRODUCTS WITH HIGH TO LOW MRP BUT OUT OF STOCK
+- ESTIMATE THE MAXIMUM POTENTIAL REVENUE FOR EACH CATEGORY BASED ON THE DISCOUNTED SELLING PRICE AND THE CURRENT AVAILABLE STOCK.
+- FIND ALL PRODUCTS WHERE MRP IS GREATER THAN 500rs AND discount < 10%
+- IDENTIFY THE TOP 5 CATEGORIES OFFERING THE HIGHEST AVERAGE DISCOUNT PERCENTAGE
+- FIND THE PRICE PER GRAM FOR PRODUCTS ABOVE 100g AND SORT BY BEST VALUE
+- GROUP THE PRODUCTS IN TO CATEGORIES LIKE LOW, MEDIUM, BULK
+- WHAT IS THE TOTAL INVENTORY WEIGHT PER CATEGORY?
