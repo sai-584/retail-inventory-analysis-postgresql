@@ -95,6 +95,9 @@ To improve data quality and ensure accurate analysis, the following cleaning ste
 - Converted price values from paise to Indian Rupees for better readability and meaningful business reporting.
 
 
+---
+
+
 ## Business Questions Answered
 
 The project answers several real-world business questions, including:
