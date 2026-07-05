@@ -24,7 +24,7 @@ The objective of this project is to perform Exploratory Data Analysis (EDA), cle
 
 - PostgreSQL
 - SQL
-- Kaggle Dataset
+- Kaggle Dataset 
 - Git
 - GitHub
  
