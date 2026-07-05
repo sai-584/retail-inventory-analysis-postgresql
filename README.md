@@ -30,7 +30,7 @@ The objective of this project is to perform Exploratory Data Analysis (EDA), cle
  
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 
 **Dataset Name:** Zepto Inventory Dataset
 
