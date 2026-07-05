@@ -46,3 +46,23 @@ The dataset contains retail inventory information, including:
 - Available Quantity
 - Product Weight
 - Stock Availability
+
+
+---
+
+## Database Schema
+
+The project uses a single table named **`zepto_products`**.
+
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| product_id | SERIAL | Unique identifier for each product |
+| category | VARCHAR(100) | Product category |
+| product_name | VARCHAR(255) | Name of the product |
+| mrp | INT | Maximum Retail Price (converted to ₹ during cleaning) |
+| discount_percent | INT | Discount offered on the product |
+| available_quantity | INT | Quantity currently available in inventory |
+| discounted_selling_price | INT | Selling price after discount (converted to ₹ during cleaning) |
+| weight_in_grams | INT | Weight of one product in grams |
+| out_of_stock | BOOLEAN | Indicates whether the product is out of stock |
+| quantity | INT | Product quantity/unit information from the dataset |
